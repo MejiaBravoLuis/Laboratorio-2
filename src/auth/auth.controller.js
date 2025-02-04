@@ -88,7 +88,7 @@ export const register = async (req, res) => {
 
         return res.status(500).json({
             message: "User registration failed",
-            error: err.message
+            error: error.message
         })
 
     }
