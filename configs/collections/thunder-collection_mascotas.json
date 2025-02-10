@@ -1,0 +1,79 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "mascotas",
+    "collectionId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+    "dateExported": "2025-02-10T17:23:32.493Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1d4c38bf-028c-40a5-8c6d-3342c282d95e",
+            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "containerId": "",
+            "name": "getPets",
+            "url": "http://localhost:3001/adoptionSystem/v1/pets/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-10T13:48:26.694Z",
+            "modified": "2025-02-10T13:48:49.084Z",
+            "headers": []
+        },
+        {
+            "_id": "f83a5803-05d2-496c-b834-cb207497106c",
+            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "containerId": "",
+            "name": "getPetById",
+            "url": "http://localhost:3001/adoptionSystem/v1/pets/67aa34fee1e702783ef91d68",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-10T14:03:37.535Z",
+            "modified": "2025-02-10T17:20:45.099Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljNjA5YzE5NGVmNjVkYmU1OTEiLCJpYXQiOjE3MzkyMDc2MzMsImV4cCI6MTczOTIxMTIzM30.hoEsUEoB-iFVW-PVgHE1JbUzfffFGHTa26Pt70-nQD0"
+                }
+            ]
+        },
+        {
+            "_id": "fda87c53-ed6e-4ff3-abb0-e6d5043dc439",
+            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "containerId": "",
+            "name": "deletePet",
+            "url": "http://localhost:3001/adoptionSystem/v1/pets/67aa359fe1e702783ef91d7f",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2025-02-10T14:24:25.780Z",
+            "modified": "2025-02-10T17:22:11.216Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljNjA5YzE5NGVmNjVkYmU1OTEiLCJpYXQiOjE3MzkyMDc2MzMsImV4cCI6MTczOTIxMTIzM30.hoEsUEoB-iFVW-PVgHE1JbUzfffFGHTa26Pt70-nQD0"
+                }
+            ]
+        },
+        {
+            "_id": "e197d3e6-2006-4026-a362-2064513268a4",
+            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "containerId": "",
+            "name": "agregar Pets",
+            "url": "http://localhost:3001/adoptionSystem/v1/pets/67aa359fe1e702783ef91d7f",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-02-10T17:14:41.559Z",
+            "modified": "2025-02-10T17:21:55.318Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljNjA5YzE5NGVmNjVkYmU1OTEiLCJpYXQiOjE3MzkyMDc5MjcsImV4cCI6MTczOTIxMTUyN30.WUjXRBqIIYTMgBGHbrcL7Ss04ssqMQmYKX0SInli8c8"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Jacob\",\n  \"description\": \"Dalmata\",\n  \"age\": \"2\",\n  \"type\": \"perro\",\n  \"email\": \"pedro@gmail.com\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "_npOzsN1S36ARkN642As6u-MOleCNUz6uLtdh1VRMGfr5AJlg01pc2q4Yz9W_T1M8dhgUDpAwxGDEQXxmz7K2Q"
+}

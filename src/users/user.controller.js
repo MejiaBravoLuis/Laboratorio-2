@@ -92,7 +92,7 @@ export const deleteUser = async (req, res) => {
 
         const authenticatedUser = req.user;
 
-        res.status(200).jsom({
+        res.status(200).json({
             succes: true,
             msg: 'Usuario Desactivado',
             user,

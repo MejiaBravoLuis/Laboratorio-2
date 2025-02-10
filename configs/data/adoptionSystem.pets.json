@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "67a9ff32b3898c645ede5da6"
+  },
+  "name": "Max",
+  "description": "perro salchica",
+  "age": 3,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67a9fc62aae460569de803fb"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T13:29:22.637Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T14:27:41.801Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa34fee1e702783ef91d68"
+  },
+  "name": "Jacob",
+  "description": "Dalmata",
+  "age": 2,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67aa19c609c194ef65dbe591"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-10T17:18:54.667Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T17:21:11.353Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67aa359fe1e702783ef91d7f"
+  },
+  "name": "Jacob",
+  "description": "Dalmata",
+  "age": 2,
+  "type": "PERRO",
+  "keeper": {
+    "$oid": "67aa19c609c194ef65dbe591"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-10T17:21:35.732Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-10T17:22:11.206Z"
+  }
+}]

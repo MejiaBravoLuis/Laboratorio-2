@@ -1,0 +1,52 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "usuarios",
+    "collectionId": "b0bf6dac-3200-4751-b517-711d40a4af35",
+    "dateExported": "2025-02-10T17:23:21.381Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c33333e4-83a0-4086-a768-90baecfe9f35",
+            "colId": "b0bf6dac-3200-4751-b517-711d40a4af35",
+            "containerId": "",
+            "name": "listar Usuarios",
+            "url": "http://localhost:3001/adoptionSystem/v1/users?limite=10&desde=0",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-10T13:08:32.719Z",
+            "modified": "2025-02-10T13:08:38.409Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limite",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "desde",
+                    "value": "0",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "f8660a08-b57e-46fe-a4b0-fedb25e8253c",
+            "colId": "b0bf6dac-3200-4751-b517-711d40a4af35",
+            "containerId": "",
+            "name": "eliminar Usuario",
+            "url": "http://localhost:3001/adoptionSystem/v1/users/67aa19c609c194ef65dbe591",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2025-02-10T15:27:38.795Z",
+            "modified": "2025-02-10T16:10:34.437Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmM2MmFhZTQ2MDU2OWRlODAzZmIiLCJpYXQiOjE3MzkyMDIyMzAsImV4cCI6MTczOTIwNTgzMH0.USq_2GTjsjwZCm6tgl9FINrtfCpyKhjxXKfDcJ9Oeko"
+                }
+            ]
+        }
+    ],
+    "ref": "8LdCaGl27JysMDNIMqAfYcqzP_1l4w_CUOcJKf05SADeJj7wvl4b_kvayi7ppdBJvpfhZCPdXkZfn9i1P418pg"
+}
