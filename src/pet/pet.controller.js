@@ -1,5 +1,6 @@
 import User from '../users/user.model.js'
 import Pet from '../pet/pet.model.js'
+import { response } from 'express';
 
 export const savePet = async (req, res) => {
     try {
@@ -119,6 +120,30 @@ export const deletePet = async (req, res) => {
         res.status(500).json({
             succes: false,
             message: 'Error al eliminar mascota',
+            error
+        })
+    }
+}
+
+
+export const updatePet = async (req, res = response) => {
+    try {
+
+        const { id } = req.params;
+        const { _id, keeper, ...data } = req.body;
+        
+        const pet = await Pet.findByIdAndUpdate(id, data, {new : true});
+
+        res.status(200).json({
+            succes: true,
+            msg: 'Mascota actualizada con éxito!!!',
+            pet
+        })
+
+    } catch (error) {
+        res.status(500).json({
+            succes: false,
+            msg: 'Error al actualizar la mascota',
             error
         })
     }
