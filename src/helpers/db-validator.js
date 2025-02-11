@@ -1,6 +1,7 @@
 import Role from '../role/role.model.js'
 import User from '../users/user.model.js'
 import Pet from '../pet/pet.model.js'
+import Appoinment from '../citas/appoinment.model.js'
 
 export const esRoleValido = async (role = ' ') => {
     const existeRol = await Role.findOne({ role });
@@ -33,5 +34,12 @@ export const existePetById = async (id = '') => {
 
     if (!existePet){
         throw new Error(`La mascota ${id} no existe`)
+    }
+}
+
+export const existeCitaById = async (id = '') => {
+    const existeCita = await Appoinment.findById(id);
+    if(!existeCita){
+        throw new Error(`El ID ${id} no existe en la base de datos`);
     }
 }
