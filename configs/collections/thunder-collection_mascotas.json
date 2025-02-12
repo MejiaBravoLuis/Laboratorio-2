@@ -1,79 +1,154 @@
 {
     "clientName": "Thunder Client",
     "collectionName": "mascotas",
-    "collectionId": "2c55eb26-ad79-4866-8855-d949389f44ee",
-    "dateExported": "2025-02-10T17:23:32.493Z",
+    "collectionId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
+    "dateExported": "2025-02-12T16:38:24.951Z",
     "version": "1.2",
     "folders": [],
     "requests": [
         {
-            "_id": "1d4c38bf-028c-40a5-8c6d-3342c282d95e",
-            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "_id": "2260ed9e-dfe9-4100-bdb7-8b15378ade90",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
             "containerId": "",
-            "name": "getPets",
+            "name": "listar mascotas",
             "url": "http://localhost:3001/adoptionSystem/v1/pets/",
             "method": "GET",
             "sortNum": 10000,
-            "created": "2025-02-10T13:48:26.694Z",
-            "modified": "2025-02-10T13:48:49.084Z",
+            "created": "2025-02-11T13:06:09.270Z",
+            "modified": "2025-02-11T13:06:12.704Z",
             "headers": []
         },
         {
-            "_id": "f83a5803-05d2-496c-b834-cb207497106c",
-            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "_id": "69158fe0-6cf8-4894-b353-2b593d147587",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
             "containerId": "",
-            "name": "getPetById",
+            "name": "buscar mascota por ID",
             "url": "http://localhost:3001/adoptionSystem/v1/pets/67aa34fee1e702783ef91d68",
             "method": "GET",
             "sortNum": 20000,
-            "created": "2025-02-10T14:03:37.535Z",
-            "modified": "2025-02-10T17:20:45.099Z",
-            "headers": [
-                {
-                    "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljNjA5YzE5NGVmNjVkYmU1OTEiLCJpYXQiOjE3MzkyMDc2MzMsImV4cCI6MTczOTIxMTIzM30.hoEsUEoB-iFVW-PVgHE1JbUzfffFGHTa26Pt70-nQD0"
-                }
-            ]
+            "created": "2025-02-11T13:06:40.974Z",
+            "modified": "2025-02-11T13:06:45.634Z",
+            "headers": []
         },
         {
-            "_id": "fda87c53-ed6e-4ff3-abb0-e6d5043dc439",
-            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "_id": "4bc9d104-2909-4626-b2ef-626c6376626f",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
             "containerId": "",
-            "name": "deletePet",
-            "url": "http://localhost:3001/adoptionSystem/v1/pets/67aa359fe1e702783ef91d7f",
-            "method": "DELETE",
+            "name": "eliminar mascota",
+            "url": "",
+            "method": "GET",
             "sortNum": 30000,
-            "created": "2025-02-10T14:24:25.780Z",
-            "modified": "2025-02-10T17:22:11.216Z",
-            "headers": [
-                {
-                    "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljNjA5YzE5NGVmNjVkYmU1OTEiLCJpYXQiOjE3MzkyMDc2MzMsImV4cCI6MTczOTIxMTIzM30.hoEsUEoB-iFVW-PVgHE1JbUzfffFGHTa26Pt70-nQD0"
-                }
-            ]
+            "created": "2025-02-11T13:07:27.221Z",
+            "modified": "2025-02-11T13:07:27.221Z",
+            "headers": []
         },
         {
-            "_id": "e197d3e6-2006-4026-a362-2064513268a4",
-            "colId": "2c55eb26-ad79-4866-8855-d949389f44ee",
+            "_id": "5a3e8d63-6f92-4bf9-8d94-45cf9e7ed27f",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
             "containerId": "",
-            "name": "agregar Pets",
-            "url": "http://localhost:3001/adoptionSystem/v1/pets/67aa359fe1e702783ef91d7f",
-            "method": "POST",
+            "name": "Actualizar pet",
+            "url": "http://localhost:3001/adoptionSystem/v1/pets/67a9ff32b3898c645ede5da6",
+            "method": "PUT",
             "sortNum": 40000,
-            "created": "2025-02-10T17:14:41.559Z",
-            "modified": "2025-02-10T17:21:55.318Z",
+            "created": "2025-02-11T13:38:49.288Z",
+            "modified": "2025-02-11T14:15:43.411Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMTljNjA5YzE5NGVmNjVkYmU1OTEiLCJpYXQiOjE3MzkyMDc5MjcsImV4cCI6MTczOTIxMTUyN30.WUjXRBqIIYTMgBGHbrcL7Ss04ssqMQmYKX0SInli8c8"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMWU3YzQyNzViMzdhYmM3M2Y5YmQiLCJpYXQiOjE3MzkyODE3NzcsImV4cCI6MTczOTI4NTM3N30.yySx1UGQ0IFwGmaej4qZsmjiF4CzdOMSRbM-gVYiqGM"
                 }
             ],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Jacob\",\n  \"description\": \"Dalmata\",\n  \"age\": \"2\",\n  \"type\": \"perro\",\n  \"email\": \"pedro@gmail.com\"\n}",
+                "raw": "{\n  \"name\": \"Perrillo\",\n  \"description\": \"Husky\",\n  \"age\": \"3\",\n  \"type\": \"perro\"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "fe8da0d1-b9cc-4cc7-a18e-aa6a99fa0f2c",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
+            "containerId": "",
+            "name": "listarCitas",
+            "url": "http://localhost:3001/adoptionSystem/v1/appoinments/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-02-11T15:35:40.267Z",
+            "modified": "2025-02-11T16:25:15.444Z",
+            "headers": []
+        },
+        {
+            "_id": "a57c1043-69ea-406c-8c13-6c34aec49e92",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
+            "containerId": "",
+            "name": "agregar cita",
+            "url": "http://localhost:3001/adoptionSystem/v1/appoinments/",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2025-02-11T16:39:58.065Z",
+            "modified": "2025-02-11T17:24:03.706Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmM2MmFhZTQ2MDU2OWRlODAzZmIiLCJpYXQiOjE3MzkyOTI4NTIsImV4cCI6MTczOTI5NjQ1Mn0.G6wsyeZ3gpiQ10jgyYazwIse-WFuijoWKOTCU2L5TWM"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"veterinary\": \"Dr campos\",\n  \"date\": \"hoy\",\n  \"hour\": \"07:00AM\",\n  \"id\": \"67a9ff32b3898c645ede5da6\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5dfab52d-6bba-4408-b96b-59399f60b0a3",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
+            "containerId": "",
+            "name": "actualizar cita",
+            "url": "http://localhost:3001/adoptionSystem/v1/appoinments/67ab80f18305550583e529c1",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2025-02-11T17:07:03.234Z",
+            "modified": "2025-02-12T16:33:48.943Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"veterinary\": \"Dr Andrés\",\n  \"date\": \"hoy\",\n  \"hour\": \"07:00AM\",\n  \"petCited\": \"67aa34fee1e702783ef91d68\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c5caf779-7ca5-4cd0-953a-6e8c1896d267",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
+            "containerId": "",
+            "name": "desactivar cita",
+            "url": "http://localhost:3001/adoptionSystem/v1/appoinments/67ab80f18305550583e529c1",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2025-02-11T17:16:15.602Z",
+            "modified": "2025-02-11T17:32:52.195Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmM2MmFhZTQ2MDU2OWRlODAzZmIiLCJpYXQiOjE3MzkyOTQyMDksImV4cCI6MTczOTI5NzgwOX0.5TfghU8uHFv_x0CYyFvZgIMBHT_9Hd6dM01Hg7iorBE"
+                }
+            ]
+        },
+        {
+            "_id": "71a5266b-9372-4653-b4d6-2ce3325ddf11",
+            "colId": "20cb57b5-f16b-4c8a-8486-b20cdd96b89e",
+            "containerId": "",
+            "name": "buscar Cita",
+            "url": "http://localhost:3001/adoptionSystem/v1/appoinments/67ab87b3f344dcd12e0327a0",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2025-02-11T17:32:27.035Z",
+            "modified": "2025-02-12T16:31:33.354Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2E5ZmM2MmFhZTQ2MDU2OWRlODAzZmIiLCJpYXQiOjE3MzkzNzc4NjgsImV4cCI6MTczOTM4MTQ2OH0.NvHzw7Mv-LJ258LrFQ6i_jWYviEVDThK-GNX3QyHSGI"
+                }
+            ]
         }
     ],
-    "ref": "_npOzsN1S36ARkN642As6u-MOleCNUz6uLtdh1VRMGfr5AJlg01pc2q4Yz9W_T1M8dhgUDpAwxGDEQXxmz7K2Q"
+    "ref": "BoX9D8W1aANQZ0EBwUFX9hEDIhPd3_s02scNDb9SQT6YMOuNKwE_vMMII7dSpzlOeT9MLXaPYLV9-aTy8H34zg"
 }

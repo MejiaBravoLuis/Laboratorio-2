@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67ab80f18305550583e529c1"
+  },
+  "veterinary": "Dr Andrés",
+  "date": "hoy",
+  "hour": "07:00AM",
+  "petCited": {
+    "$oid": "67aa34fee1e702783ef91d68"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T16:55:13.156Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-12T16:33:48.926Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ab87b3f344dcd12e0327a0"
+  },
+  "veterinary": "Dr Campos",
+  "date": "hoy",
+  "hour": "07:00AM",
+  "petCited": {
+    "$oid": "67aa34fee1e702783ef91d68"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-11T17:24:03.700Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-12T16:32:08.025Z"
+  }
+}]

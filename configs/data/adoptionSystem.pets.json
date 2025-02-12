@@ -2,8 +2,8 @@
   "_id": {
     "$oid": "67a9ff32b3898c645ede5da6"
   },
-  "name": "Max",
-  "description": "perro salchica",
+  "name": "Perrillo",
+  "description": "Husky",
   "age": 3,
   "type": "PERRO",
   "keeper": {
@@ -14,7 +14,7 @@
     "$date": "2025-02-10T13:29:22.637Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T14:27:41.801Z"
+    "$date": "2025-02-11T14:15:43.392Z"
   }
 },
 {

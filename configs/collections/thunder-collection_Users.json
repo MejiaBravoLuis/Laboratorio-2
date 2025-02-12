@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "c3dab601-53bd-410b-99fd-d28f59272f17",
+    "dateExported": "2025-02-12T16:38:48.102Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7cab1444-1532-45ba-bcdc-765218d68995",
+            "colId": "c3dab601-53bd-410b-99fd-d28f59272f17",
+            "containerId": "",
+            "name": "Listar usuarios",
+            "url": "http://localhost:3001/adoptionSystem/v1/users?limite=10&desde=0",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-11T13:15:43.743Z",
+            "modified": "2025-02-11T13:15:47.652Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limite",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "desde",
+                    "value": "0",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "df884234-f225-4b98-87af-cda98e8a6600",
+            "colId": "c3dab601-53bd-410b-99fd-d28f59272f17",
+            "containerId": "",
+            "name": "Eliminar usuario",
+            "url": "http://localhost:3001/adoptionSystem/v1/users/67aa19c609c194ef65dbe591",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2025-02-11T13:16:23.385Z",
+            "modified": "2025-02-11T13:16:29.704Z",
+            "headers": []
+        },
+        {
+            "_id": "28aafc4f-7f8e-463c-8c8c-2a93f21ea87f",
+            "colId": "c3dab601-53bd-410b-99fd-d28f59272f17",
+            "containerId": "",
+            "name": "Editar usuario",
+            "url": "http://localhost:3001/adoptionSystem/v1/users/67aa1e7c4275b37abc73f9bd",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-02-11T13:23:11.852Z",
+            "modified": "2025-02-11T13:31:18.400Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Cole\",\n  \"surname\": \"Cole\",\n  \"username\": \"cole\",\n  \"email\": \"cole@gmail.com\",\n  \"password\": \"12345678\",\n  \"role\": \"USER_ROLE\",\n  \"phone\": \"12345674\",\n  \"profilePicture\": \"\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "90675023-143c-47ba-971a-b35f8508ed66",
+            "colId": "c3dab601-53bd-410b-99fd-d28f59272f17",
+            "containerId": "",
+            "name": "actualizar contraseña",
+            "url": "http://localhost:3001/adoptionSystem/v1/users/67a9fc62aae460569de803fb/password",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2025-02-11T14:37:46.987Z",
+            "modified": "2025-02-11T14:44:52.965Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2FhMWU3YzQyNzViMzdhYmM3M2Y5YmQiLCJpYXQiOjE3MzkyODE3NzcsImV4cCI6MTczOTI4NTM3N30.yySx1UGQ0IFwGmaej4qZsmjiF4CzdOMSRbM-gVYiqGM"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "3qZoamYhqzuAyJJE-szNDRYbLQG9sLfeTcIqCZeSPY5urY31bjUxGK96-2pXn_KrSWavp-Ud-zZxTaHn5NXUqg"
+}

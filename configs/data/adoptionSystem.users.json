@@ -6,7 +6,7 @@
   "surname": "Luis",
   "username": "abso",
   "email": "abso@gmail.com",
-  "password": "$argon2id$v=19$m=65536,t=3,p=4$BlOD9bgalVK9KnoJPjcERg$Hjgz/4TaVYLezq0hO/HZ1eFnxfBWDF8gUMgCNGPiXVg",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$Dt4w9PtVKdy0yq0ncEYNHg$JpQ9X0S3ZXRXctjLMb0N5cjhgdvv/Rsa+pi0a3E45/8",
   "profilePicture": null,
   "phone": "12345674",
   "role": "ADMIN_ROLE",
@@ -15,7 +15,7 @@
     "$date": "2025-02-10T13:17:22.792Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T13:17:22.792Z"
+    "$date": "2025-02-11T14:44:52.947Z"
   }
 },
 {
@@ -42,12 +42,12 @@
   "_id": {
     "$oid": "67aa1e7c4275b37abc73f9bd"
   },
-  "name": "Hayler",
-  "surname": "Hayler",
-  "username": "hayler",
+  "name": "Cole",
+  "surname": "Cole",
+  "username": "cole",
   "email": "hayler@gmail.com",
-  "password": "$argon2id$v=19$m=65536,t=3,p=4$uQgsq9vKth0JlZbFztWzMw$MeTp7Nad3diS3LdJVuGsxkhuykWGPSWHRWxvAfP2m3w",
-  "profilePicture": null,
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$vnMdzUrp5TayiqNhvc08Ow$MhDXoKnZ1sK4i71OykDyEX2YCivZ4faoC6X/d8o8U9M",
+  "profilePicture": "",
   "phone": "12345674",
   "role": "USER_ROLE",
   "estado": true,
@@ -55,6 +55,6 @@
     "$date": "2025-02-10T15:42:52.666Z"
   },
   "updatedAt": {
-    "$date": "2025-02-10T16:08:00.554Z"
+    "$date": "2025-02-11T13:31:18.385Z"
   }
 }]
